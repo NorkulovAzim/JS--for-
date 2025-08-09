@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOR</title>
+  </head>
+  <body>
+    <script>
+      //for - 7//
+      let a = parseInt(prompt("a sonini kiriting (a < b):"));
+      let b = parseInt(prompt("b sonini kiriting (b > a):"));
+
+      let yigindi = 0;
+
+      for (let i = a; i <= b; i++) {
+        yigindi += i;
+      }
+
+      alert(a + " dan " + b + " gacha bo'lgan sonlar yig'indisi: " + yigindi);
+
+      //for - 8//
+      let x = parseInt(prompt("x sonini kiriting (x < y):"));
+      let y = parseInt(prompt("y sonini kiriting (y > x):"));
+
+      let kopaytma = 1;
+
+      for (let i = x; i <= y; i++) {
+        kopaytma *= i;
+      }
+
+      alert(x + " dan " + y + " gacha bo'lgan sonlar ko'paytmasi: " + kopaytma);
+
+      //for - 9//
+      let k = parseInt(prompt("k sonini kiriting (k < n):"));
+      let n = parseInt(prompt("n sonini kiriting (n > k):"));
+
+      let kvadrat = 1;
+
+      for (let i = k; i <= n; i++) {
+        kvadrat += i * i;
+      }
+
+      alert(k + " dan " + n + " gacha bo'lgan sonlar ko'paytmasi: " + kvadrat);
+
+      //for - 10//
+      let t = parseInt(prompt("t sonini kiriting: "));
+      let s = 0;
+
+      for (let i = 1; i <= n; i++) {
+        s += 1 / i;
+      }
+
+      alert("Natija: " + s);
+
+      // for - 11//
+      let u = parseInt(prompt("u sonini kiriting: "));
+      let p = 0;
+
+      for (let i = u; i <= 2 * n; i++) {
+        p += i * i;
+      }
+
+      alert("Natijasi: " + p);
+
+      // for - 12//
+      let r = parseInt(prompt("r sonini kiriting: "));
+      let e = 0;
+
+      for (let i = 1; i <= r; i++) {
+        e *= 1 + i / 10;
+      }
+
+      alert("Natijasi: " + e);
+    </script>
+  </body>
+</html>
