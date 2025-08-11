@@ -29,3 +29,4 @@ function yoshOlish(tugilganKuniQiymat) {
 }
 
 tugma.addEventListener("click", yoshHisobla);
+
